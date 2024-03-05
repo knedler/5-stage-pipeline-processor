@@ -1,0 +1,10 @@
+# Ignore all dumb Quartus files
+*.bak
+*.qws
+*.qarlog
+
+# Ignore output files
+db/
+incremental_db/
+output_files/
+greybox_tmp/

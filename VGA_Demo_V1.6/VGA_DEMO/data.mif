@@ -1,0 +1,21 @@
+DEPTH = 64;                   -- The size of memory in words
+WIDTH = 32;                    -- The size of data in bits
+ADDRESS_RADIX = HEX;          -- The radix for address values
+DATA_RADIX = HEX;             -- The radix for data values
+CONTENT                       -- start of (address : data pairs)
+BEGIN
+
+00 : 11111111;                -- memory address : data
+01 : 22222222;                -- memory address : data
+02 : 33333333;                -- memory address : data
+03 : 44444444;                -- memory address : data
+04 : 55555555;                -- memory address : data
+05 : 66666666;                -- memory address : data
+06 : 77777777;                -- memory address : data
+02 : 9ABCDEF0;
+15 : ADDBADFA;
+2E : FEDCBA98;
+3A : DEADBEEF;
+3F : AAAAAAAA;
+
+END;
